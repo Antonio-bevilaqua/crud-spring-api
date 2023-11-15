@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import api.entities.User;
-import api.resources.exceptions.StandardError;
 import api.services.UserService;
 import api.services.exceptions.ResourceNotFoundException;
 

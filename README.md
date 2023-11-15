@@ -2,8 +2,32 @@
 API com um CRUD feito em spring.
 
 # métodos
-<p>(GET)    /users      - Recebe todos os usuários cadastrados</p>
-<p>(POST)   /users      - Cadastra um novo usuário *campos (nome, email, telefone, password)*</p>
-<p>(GET)    /users/{id} - Recebe um usuário com o id especificado</p>
-<p>(PUT)    /users/{id} - Atualiza um usuário com o id especificado  *campos (nome, email, telefone, password)*</p>
-<p>(DELETE) /users/{id} - Remove um usuário com o id especificado</p>
+> #### (GET)    /users
+>
+> - Recebe todos os usuários cadastrados.
+
+> #### (POST)    /users
+>
+> - Cadastra um novo usuário.
+>
+>  *nome* opcional.
+>  *email* opcional.
+>  *telefone* opcional.
+>  *password* opcional.
+
+> #### (GET)    /users/{id}
+>
+> - Recebe um usuário com o id especificado ou retorna erro caso ele não exista.
+
+> #### (PUT)    /users/{id}
+>
+> - Atualiza um usuário com o id especificado.
+>
+>  *nome* opcional.
+>  *email* opcional.
+>  *telefone* opcional.
+>  *password* opcional.
+
+> #### (DELETE)    /users/{id}
+>
+> - Remove um usuário com o id especificado ou retorna erro caso ele não exista.
